@@ -85,7 +85,7 @@ form input {
     background: transparent;
     font-weight: bold;
     padding-left: 24px;
-    background-image: url(../Trabajo_integrador/Imagenes/buscador.png);
+    background-image: url(./imagenes/buscador.png);
     background-size: 16px;
     background-repeat: no-repeat;
     width: 0px;
@@ -248,7 +248,7 @@ form input:focus {
 .contenedor1 {
     width: auto;
     height: 400px;
-    background-image: url(../Trabajo_integrador/Imagenes/Jordan-travisScott.png);
+    background-image: url(./Imagenes/Jordan-travisScott.png);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -285,7 +285,7 @@ form input:focus {
 .contenedor2 {
     width: auto;
     height: 400px;
-    background-image: url(../Trabajo_integrador/Imagenes/Jordan-Dior.jpeg);
+    background-image: url(./Imagenes/Jordan-Dior.jpeg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -322,7 +322,7 @@ form input:focus {
 .contenedor3 {
     width: auto;
     height: 400px;
-    background-image: url(../Trabajo_integrador/Imagenes/Jordan-Balvin1.png);
+    background-image: url(./imagenes/jordan-balvin1.png);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -413,7 +413,7 @@ f .boton-destacado {
 .panda-img {
     width: 100%;
     height: 100%;
-    background-image: url(../Trabajo_integrador/Imagenes/jordan-panda.jpeg);
+    background-image: url(./Imagenes/jordan-panda.jpeg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -508,7 +508,7 @@ f .boton-destacado {
 
 
 .producto-1 {
-    background-image: url(../Trabajo_integrador/Imagenes/jordan-low-rojas.png);
+    background-image: url(./Imagenes/jordan-low-rojas.png);
     width: 200px;
     height: 200px;
     background-repeat: no-repeat;
@@ -522,7 +522,7 @@ f .boton-destacado {
 }
 
 .producto-2 {
-    background-image: url(../Trabajo_integrador/Imagenes/Jordan-low-gris.jpeg);
+    background-image: url(./Imagenes/Jordan-low-gris.jpeg);
     width: 200px;
     height: 200px;
     background-repeat: no-repeat;
@@ -537,7 +537,7 @@ f .boton-destacado {
 
 
 .producto-3 {
-    background-image: url(../Trabajo_integrador/Imagenes/jordan-low-rosa.png);
+    background-image: url(./Imagenes/jordan-low-rosa.png);
     width: 200px;
     height: 200px;
     background-repeat: no-repeat;
@@ -551,7 +551,7 @@ f .boton-destacado {
 }
 
 .producto-4 {
-    background-image: url(../Trabajo_integrador/Imagenes/image.jpg);
+    background-image: url(./Imagenes/image.jpg);
     width: 200px;
     height: 200px;
     background-repeat: no-repeat;
@@ -590,7 +590,7 @@ f .boton-destacado {
 .ropa {
     width: 100%;
     height: 90%;
-    background-image: url(../Trabajo_integrador/Imagenes/Clothing.jpg);
+    background-image: url(./Imagenes/Clothing.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     transition: all 0.5s;
@@ -612,7 +612,7 @@ f .boton-destacado {
 .productos {
     width: auto;
     height: 440px;
-    background-image: url(../Trabajo_integrador/Imagenes/Zapatillas-Jordan.jpg);
+    background-image: url(./Imagenes/Zapatillas-Jordan.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -626,7 +626,7 @@ f .boton-destacado {
 .zapatillas {
     width: auto;
     height: 440px;
-    background-image: url(../Trabajo_integrador/Imagenes/accesorios-jordan.jpg);
+    background-image: url(./Imagenes/accesorios-jordan.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -685,7 +685,7 @@ f .boton-destacado {
 
 
 .Producto-1 {
-    background-image: url(../Trabajo_integrador/Imagenes/Jordan-high-celestes.jpg);
+    background-image: url(./Imagenes/Jordan-high-celestes.jpg);
     width: 200px;
     height: 200px;
     background-repeat: no-repeat;
@@ -699,7 +699,7 @@ f .boton-destacado {
 }
 
 .Producto-2 {
-    background-image: url(../Trabajo_integrador/Imagenes/Jordan-high-naranja.png);
+    background-image: url(./Imagenes/Jordan-high-naranja.png);
     width: 200px;
     height: 200px;
     background-repeat: no-repeat;
@@ -713,7 +713,7 @@ f .boton-destacado {
 }
 
 .Producto-3 {
-    background-image: url(../Trabajo_integrador/Imagenes/Jordan-high-chicago.png);
+    background-image: url(./Imagenes/Jordan-high-chicago.png);
     width: 200px;
     height: 200px;
     background-repeat: no-repeat;
@@ -727,7 +727,7 @@ f .boton-destacado {
 }
 
 .Producto-4 {
-    background-image: url(../Trabajo_integrador/Imagenes/jordan-high-verdes.jpeg);
+    background-image: url(./Imagenes/jordan-high-verdes.jpeg);
     width: 200px;
     height: 200px;
     background-repeat: no-repeat;
@@ -776,7 +776,7 @@ hr {
 
     width: 50%;
     height: 500px;
-    background-image: url(../Trabajo_integrador/Imagenes/88555931e64259a122c4e4e6e284703a.jpeg);
+    background-image: url(./Imagenes/88555931e64259a122c4e4e6e284703a.jpeg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -829,7 +829,7 @@ hr {
 .ropa2 {
     width: 100%;
     height: 90%;
-    background-image: url(../Trabajo_integrador/Imagenes/Modelo-basquet.jpg);
+    background-image: url(./Imagenes/Modelo-basquet.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -843,7 +843,7 @@ hr {
 .zapatillas1 {
     width: auto;
     height: 440px;
-    background-image: url(../Trabajo_integrador/Imagenes/zapatillitas-removebg-preview.png);
+    background-image: url(./Imagenes/zapatillitas-removebg-preview.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -859,7 +859,7 @@ hr {
 .productos1 {
     width: auto;
     height: 440px;
-    background-image: url(../Trabajo_integrador/Imagenes/Pelota-basquet-muestra.png);
+    background-image: url(./Imagenes/Pelota-basquet-muestra.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-color: #bfbfbf;
@@ -894,7 +894,7 @@ hr {
 }
 
 .Producto-B-1 {
-    background-image: url(../Trabajo_integrador/Imagenes/Zapatillas-basquet1_1.jpg);
+    background-image: url(./Imagenes/Zapatillas-basquet1_1.jpg);
     width: 200px;
     height: 200px;
     background-repeat: no-repeat;
@@ -908,7 +908,7 @@ hr {
 }
 
 .Producto-B-2 {
-    background-image: url(../Trabajo_integrador/Imagenes/Zapatilla-basket5.jpg);
+    background-image: url(./Imagenes/Zapatilla-basket5.jpg);
     width: 200px;
     height: 200px;
     background-repeat: no-repeat;
@@ -923,7 +923,7 @@ hr {
 
 
 .Producto-B-3 {
-    background-image: url(../Trabajo_integrador/Imagenes/Zapatillas-basquet3\ \(1\).jpg);
+    background-image: url(./Imagenes/Zapatillas-basquet3\ \(1\).jpg);
     width: 200px;
     height: 200px;
     background-repeat: no-repeat;
@@ -937,7 +937,7 @@ hr {
 }
 
 .Producto-B-4 {
-    background-image: url(../Trabajo_integrador/Imagenes/Zapatillas-basquet4\ \(2\).jpg);
+    background-image: url(./Imagenes/Zapatillas-basquet4\ \(2\).jpg);
     width: 200px;
     height: 200px;
     background-repeat: no-repeat;

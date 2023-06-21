@@ -184,7 +184,7 @@ body {
 }
 
 
-.hola {
+/* .hola {
     width: 100%;
     height: 100vh;
     background-image: url(../practica/Imagenes/danilo-capece-NoVnXXmDNi0-unsplash.jpg);
@@ -194,7 +194,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .contenedor {
     width: 600px;
