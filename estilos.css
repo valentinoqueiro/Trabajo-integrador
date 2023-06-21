@@ -1,0 +1,1103 @@
+body {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
+
+/* !Header */
+
+header {
+    margin: 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+@keyframes header {
+    0% {
+        transform: translateY(-100px);
+        font-family: 'Bebas Neue', sans-serif;
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes opacidad {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+    animation: header 1s ease, opacidad 2s ease;
+
+}
+
+.logo {
+    margin-left: 50%;
+    height: 70px;
+    width: 80px;
+    position: absolute;
+}
+
+
+/* *buscador */
+
+.buscador {
+    height: 10px;
+
+}
+
+form>div {
+    display: flex;
+    background-color: white;
+    padding: 9px 22px 9px 26px;
+    border-radius: 30px;
+    border: 2px solid #000000bc;
+    margin-left: 30px;
+}
+
+form input {
+    border: none;
+    background: transparent;
+    font-weight: bold;
+    padding-left: 24px;
+    background-image: url(../Trabajo_integrador/Imagenes/buscador.png);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    width: 0px;
+    transition: all 1s;
+}
+
+form input:focus {
+    outline: none;
+    width: 100px;
+}
+
+
+/* *navbar */
+
+.navbar ul {
+    display: flex;
+    gap: 60px;
+    margin: 30px;
+    list-style: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    position: relative;
+    padding: 0;
+}
+
+.navbar li a::after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    background: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: bottom left;
+    transition: transform 0.15s ease;
+}
+
+.navbar li a:hover::after {
+    transform-origin: bottom left;
+    transform: scaleX(1);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar span {
+    font-size: 36px;
+    display: none;
+}
+
+#toggle-menu {
+    display: none;
+}
+
+.bars-menu span {
+    height: 1.5px;
+    width: 30px;
+    background-color: #000000bc;
+    transition: all .3s;
+}
+
+.bars-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-right: 1rem;
+}
+
+/* !HOME */
+
+#home {
+    height: 800px;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    background-image: url(https://images.unsplash.com/photo-1639704772864-3f08692a4848?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+.h1 {
+    padding-left: 80px;
+    padding-top: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    animation: h1 1s ease, opacidad 2s ease;
+}
+
+@keyframes h1 {
+    0% {
+        transform: translateX(-100px);
+
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+
+/* Boton chicago */
+
+.jordan-chicago-container a {
+    text-decoration: none;
+    width: 250px;
+    color: #ffff;
+    background-color: black;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 red;
+    transition: ease-in-out .4s;
+    font-size: 30px;
+    outline: none;
+    border: double;
+    cursor: pointer;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+.boton-chicago:hover {
+    box-shadow: inset 250px 0 0 0 red;
+    color: #ffff;
+}
+
+
+
+
+/* !Destacado */
+
+#Destacado {
+    margin-top: 800px;
+}
+
+#Destacado h2 {
+    margin-left: 40px;
+}
+
+.destacado {
+    gap: 5px;
+    /* margin: 0 10px; */
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* contenedor1 */
+
+.contenedor1 {
+    width: auto;
+    height: 400px;
+    background-image: url(../Trabajo_integrador/Imagenes/Jordan-travisScott.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    border-radius: 10px;
+    align-items: center;
+}
+
+
+.contenedor1 img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+
+}
+
+.contenedor1 img:hover {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.contenedor-articulo1 {
+    width: 30%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+/* Contenedor2 */
+
+.contenedor2 {
+    width: auto;
+    height: 400px;
+    background-image: url(../Trabajo_integrador/Imagenes/Jordan-Dior.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    border-radius: 10px;
+    align-items: center;
+}
+
+
+.contenedor2 img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+
+}
+
+.contenedor2 img:hover {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.contenedor-articulo2 {
+    width: 30%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+/* Contenedor3 */
+
+.contenedor3 {
+    width: auto;
+    height: 400px;
+    background-image: url(../Trabajo_integrador/Imagenes/Jordan-Balvin1.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    border-radius: 10px;
+    align-items: center;
+}
+
+
+.contenedor3 img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+
+}
+
+.contenedor3 img:hover {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.contenedor-articulo3 {
+    width: 30%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.info-producto {
+    display: flex;
+    font-size: 14px;
+    padding: 3px;
+}
+
+.info-producto h3 {
+    margin-left: 10px;
+}
+
+.info-producto p {
+    margin-right: 30px;
+}
+
+
+f .boton-destacado {
+    width: 70px;
+    background-color: rgb(0, 0, 0);
+    color: #ffff;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+}
+
+.boton-destacado a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.boton-destacado:hover {
+    opacity: 0.7;
+    transition: all 0.3s;
+}
+
+
+/* !PANDA */
+
+.panda {
+    height: 500px;
+    width: auto;
+    margin-top: 300px;
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s;
+}
+
+
+.panda:hover {
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+.panda-img {
+    width: 100%;
+    height: 100%;
+    background-image: url(../Trabajo_integrador/Imagenes/jordan-panda.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+
+.panda p {
+    font-size: 60px;
+    font-weight: 400;
+    word-spacing: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-left: 30px;
+
+}
+
+.panda p span {
+    color: red;
+}
+
+
+
+.boton {
+    text-decoration: none;
+    width: 200px;
+    color: #ffff;
+    background-color: transparent;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 red;
+    transition: ease-out .4s;
+    font-size: 30px;
+    outline: none;
+    border: double;
+    margin-left: 40%;
+    align-items: center;
+    padding: 5px;
+}
+
+
+
+.boton:hover {
+    box-shadow: inset 300px 0 0 0 red;
+    color: #ffff;
+}
+
+
+/* !LOW */
+
+#Low {
+
+    height: 500px;
+}
+
+#low h2 {
+    margin: 100px 40px 0;
+}
+
+.Zapatillas-low {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.low-cont {
+    margin: 20px;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+.low-producto {
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+.info-producto {
+    width: 100%;
+    justify-content: space-around;
+    padding: 0 0.5rem;
+}
+
+
+
+
+.producto-1 {
+    background-image: url(../Trabajo_integrador/Imagenes/jordan-low-rojas.png);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.producto-2 {
+    background-image: url(../Trabajo_integrador/Imagenes/Jordan-low-gris.jpeg);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+
+.producto-3 {
+    background-image: url(../Trabajo_integrador/Imagenes/jordan-low-rosa.png);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.producto-4 {
+    background-image: url(../Trabajo_integrador/Imagenes/image.jpg);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+/* *PRODUCTOS */
+
+#Mas-de-jordan {
+    margin: 100px 20px 0;
+}
+
+.Mas-de-jordan {
+    width: auto;
+    height: 62.5rem;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff;
+}
+
+.ropa {
+    width: 100%;
+    height: 90%;
+    background-image: url(../Trabajo_integrador/Imagenes/Clothing.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all 0.5s;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+.display-MdJ {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+
+.productos {
+    width: auto;
+    height: 440px;
+    background-image: url(../Trabajo_integrador/Imagenes/Zapatillas-Jordan.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+.zapatillas {
+    width: auto;
+    height: 440px;
+    background-image: url(../Trabajo_integrador/Imagenes/accesorios-jordan.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-color: #bfbfbf;
+    display: flex;
+    transition: all 0.5s;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+.ropa:hover {
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+.zapatillas:hover {
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+.productos:hover {
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+.boton-MdJ-cont {
+    width: 100px;
+    height: 40px;
+    background-color: #ffff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.boton-MdJ-cont:hover {
+    background: rgba(255, 255, 255, 0.7);
+    transition: all 0.3s;
+}
+
+.boton-MdJ {
+    text-decoration: none;
+    color: black;
+}
+
+.p-MdJ {
+    margin: 0 30px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+
+/* *HIGHT */
+
+
+.Producto-1 {
+    background-image: url(../Trabajo_integrador/Imagenes/Jordan-high-celestes.jpg);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.Producto-2 {
+    background-image: url(../Trabajo_integrador/Imagenes/Jordan-high-naranja.png);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.Producto-3 {
+    background-image: url(../Trabajo_integrador/Imagenes/Jordan-high-chicago.png);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.Producto-4 {
+    background-image: url(../Trabajo_integrador/Imagenes/jordan-high-verdes.jpeg);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+/* *ESLOGAN */
+
+#Basketball {
+    width: 100%;
+    height: 700px;
+}
+
+#Basketball h3 {
+
+    font-size: 70px;
+    justify-content: center;
+}
+
+hr {
+    width: auto;
+    /* height: 3px; */
+    background-color: #000000bc;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.7);
+}
+
+.h3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.eslogan-cont {
+    display: flex;
+    margin: 20px;
+    margin-top: 100px;
+}
+
+.eslogan {
+
+    width: 50%;
+    height: 500px;
+    background-image: url(../Trabajo_integrador/Imagenes/88555931e64259a122c4e4e6e284703a.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    background-color: black;
+}
+
+.eslogan img {
+    width: 120px;
+    height: auto;
+    position: absolute;
+    top: 4393px;
+    left: 55%;
+
+}
+
+.esloganm {
+    width: 50%;
+    height: 500px;
+    /* box-shadow: 0 8px 0 rgba(0, 0, 0, 0.5); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: black;
+    color: #bfbfbf;
+}
+
+.esloganm h2 {
+    max-width: 500px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.esloganm p {
+    max-width: 400px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.esloganm span {
+    color: rgb(168, 0, 0);
+}
+
+
+/* *ARTICULOS BASKETBALL */
+
+.ropa2 {
+    width: 100%;
+    height: 90%;
+    background-image: url(../Trabajo_integrador/Imagenes/Modelo-basquet.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s;
+}
+
+.zapatillas1 {
+    width: auto;
+    height: 440px;
+    background-image: url(../Trabajo_integrador/Imagenes/zapatillitas-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-color: #bfbfbf;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s;
+
+}
+
+.productos1 {
+    width: auto;
+    height: 440px;
+    background-image: url(../Trabajo_integrador/Imagenes/Pelota-basquet-muestra.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #bfbfbf;
+    background-size: contain;
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+.ropa2:hover {
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+.zapatillas1:hover {
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+.productos1:hover {
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+/* *Zapatillas Basketball */
+
+
+#Zapatillas-Baketball h2 {
+    margin-left: 40px;
+}
+
+.Producto-B-1 {
+    background-image: url(../Trabajo_integrador/Imagenes/Zapatillas-basquet1_1.jpg);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.Producto-B-2 {
+    background-image: url(../Trabajo_integrador/Imagenes/Zapatilla-basket5.jpg);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+
+.Producto-B-3 {
+    background-image: url(../Trabajo_integrador/Imagenes/Zapatillas-basquet3\ \(1\).jpg);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.Producto-B-4 {
+    background-image: url(../Trabajo_integrador/Imagenes/Zapatillas-basquet4\ \(2\).jpg);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+
+
+.footer1 {
+    display: flex;
+    gap: 5rem;
+}
+
+.footer-content {
+    width: auto;
+    height: auto;
+    background-color: rgb(35, 35, 35);
+    display: flex;
+    justify-content: space-around;
+    color: #ffff;
+    text-decoration: none;
+}
+
+a {
+    color: #bfbfbf;
+    text-decoration: none;
+}
+
+.footer-content h3 {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+.ul-footer {
+    list-style: none;
+    margin: 0;
+}
+
+
+
+.ul-footer a {
+    text-decoration: none;
+    color: #565656;
+
+}
+
+.ul-footer a:hover {
+    color: #ffff;
+    transition: all 0.2s;
+}
+
+
+.redes-sociales {
+    display: flex;
+    gap: 30px;
+    margin-top: 3rem;
+}
+
+.redes-sociales a img {
+    width: 50px;
+    transition: all 0.5s;
+}
+
+.redes-sociales a img:hover {
+    box-shadow: 0 0 5px #ffffff,
+        0 0 25px #ffffff,
+        0 0 50px #ffffff,
+        0 0 100px #ffffff;
+    border-radius: 2rem;
+    transition: all 0.5s;
+}
+
+.colum {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.map {
+    border-radius: 2rem;
+}
+
+.imput_footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20rem;
+    gap: 0.5rem;
+}
+
+.textarea {
+    width: 20rem;
+    height: 10rem;
+}
+
+.input-footer {
+    background-color: transparent;
+    border-radius: 1rem;
+    border: rgb(255, 255, 255) 1px solid;
+    transition: all 0.5s;
+    color: #ffff;
+    padding: 3px 7px;
+}
+
+.input-footer:focus {
+    border: transparent;
+    box-shadow: 0 8px 24px rgba(255, 255, 255, 0.7);
+    transition: all 0.5s;
+
+}
+
+textarea {
+    background-color: transparent;
+    border-radius: 1rem;
+    border: rgb(255, 255, 255) 1px solid;
+    transition: all 0.5s;
+    color: #ffff;
+    padding: 1rem;
+}
+
+textarea:focus {
+    box-shadow: 0 8px 24px rgba(255, 255, 255, 0.7);
+    transition: all 0.5s;
+}
+
+.submit {
+    background-color: transparent;
+    border-radius: 1rem;
+    border: #ffff 1px solid;
+    width: 10rem;
+    height: 3rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.submit:hover {
+    background-color: #ffff;
+    color: #000000bc;
+    box-shadow: 0 0 5px #ffffff,
+        0 0 25px #ffffff,
+        0 0 50px #ffffff,
+        0 0 100px #ffffff;
+    transition: all 0.7s;
+    border: none;
+}
+
+.copyright {
+    background-color: rgb(35, 35, 35);
+    margin: 0;
+    color: #bfbfbf;
+}
+
+footer hr {
+    display: none;
+}
